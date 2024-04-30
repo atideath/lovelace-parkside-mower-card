@@ -1,4 +1,4 @@
-class GardenaMowerCard extends Polymer.Element {
+class ParksideMowerCard extends Polymer.Element {
 
     static get template() {
         return Polymer.html`
