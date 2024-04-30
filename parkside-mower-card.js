@@ -1,7 +1,13 @@
-class ParksideMowerCard extends Polymer.Element {
+import {
+  LitElement,
+  html,
+  css,
+} from "https://unpkg.com/lit-element@2.0.1/lit-element.js?module";
 
-    static get template() {
-        return Polymer.html`
+class ParksideMowerCard extends LitElement {
+
+    render() {
+        return html`
           <style>
             .background {
               background-repeat: no-repeat;
