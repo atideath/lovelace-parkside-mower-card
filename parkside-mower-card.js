@@ -142,4 +142,4 @@ class ParksideMowerCard extends Polymer.Element {
     }
 }
 
-customElements.define('gardena-mower-card', GardenaMowerCard);
+customElements.define('parkside-mower-card', ParksideMowerCard);
